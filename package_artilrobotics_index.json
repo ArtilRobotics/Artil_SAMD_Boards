@@ -16,8 +16,8 @@
           "category": "Arduino",
           "url": "artilrobotics.github.io/Artil_SAMD_Boards/boards/Artil-SAMD-Boards-1.0.0.zip",
           "archiveFileName": "Artil-SAMD-Boards-1.0.0.zip",
-          "checksum": "995fd0328d326cc3a7cd2b335b26251a33d3e05d826973d842920cd9c8143155",
-          "size": "3970026",
+          "checksum": "7f4dcad759174b22d9f4b7be8efe118e365d6b41643cf1539b3543d8da361c22",
+          "size": "4552112",
           "boards": [
             {
               "name": "Artil Chestnut"
