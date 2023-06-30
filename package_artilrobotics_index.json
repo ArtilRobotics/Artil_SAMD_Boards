@@ -14,8 +14,8 @@
           "architecture": "samd",
           "version": "1.0.0",
           "category": "Arduino",
-          "url": "artilrobotics.github.io/Artil_SAMD_Boards/boards/Artil-SAMD-Boards-1.0.0.rar",
-          "archiveFileName": "Artil-SAMD-Boards-1.0.0.rar",
+          "url": "artilrobotics.github.io/Artil_SAMD_Boards/boards/Artil-SAMD-Boards-1.0.0.zip",
+          "archiveFileName": "Artil-SAMD-Boards-1.0.0.zip",
           "checksum": "995fd0328d326cc3a7cd2b335b26251a33d3e05d826973d842920cd9c8143155",
           "size": "3970026",
           "boards": [
