@@ -1,0 +1,63 @@
+{
+  "packages": [
+    {
+      "name": "artilrobotics",
+      "maintainer": "ArtilRobotics",
+      "websiteUrl": "https://artilrobotics.com",
+      "email": "info@artilrobotics.com",
+      "help": {
+        "online": "https://artilrobotics.com"
+      },
+      "platforms": [
+        {
+          "name": "Artil SAMD Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Arduino",
+          "url": "artilrobotics.github.io/Artil_SAMD_Boards/boards/Artil-SAMD-Boards-1.0.0.rar",
+          "archiveFileName": "Artil-SAMD-Boards-1.0.0.rar",
+          "checksum": "995fd0328d326cc3a7cd2b335b26251a33d3e05d826973d842920cd9c8143155",
+          "size": "3970026",
+          "boards": [
+            {
+              "name": "Artil Chestnut"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
