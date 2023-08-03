@@ -1,21 +1,140 @@
 {
-    
 "packages": [ {
-  "name": "teensy",
+  "name": "artilsolver",
   "maintainer": "Artil Robotics",
   "websiteURL": "https://www.artilrobotics.com",
-  "email": "info@artilrobotics.com",
-  "help": { "online": "info@artilrobotics.com" },
+  "email": "https://www.artilrobotics.com",
+  "help": { "online": "https://www.artilrobotics.com" },
   "platforms": [ {
-    "name": "artilsolver",
+    "name": "ArtilSolver",
     "architecture": "avr",
-    "version": "1.0",
+    "version": "1.56.1",
+    "category": "Contributed",
+    "help": { "online": "https://www.artilrobotics.com" },
+    "url": "https://www.pjrc.com/teensy/td_156/teensy-package.tar.bz2",
+    "archiveFileName": "teensy-package.tar.bz2",
+    "checksum": "SHA-256:6dee25464c30fa90ceb7f551c2c6f4fc56d8fda7cab0ca6e37e5b94b9562eb61",
+    "size": "33474042",
+    "boards": [
+      { "name": "Teensy 4.1" },
+      { "name": "Teensy MicroMod" },
+      { "name": "Teensy 4.0" },
+      { "name": "Teensy 3.6" },
+      { "name": "Teensy 3.5" },
+      { "name": "Teensy 3.2" },
+      { "name": "Teensy 3.0" },
+      { "name": "Teensy LC" },
+      { "name": "Teensy++ 2.0" },
+      { "name": "Teensy 2.0" }
+    ],
+    "toolsDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-tools",
+      "version": "1.56.1"
+    }, {
+      "packager": "teensy",
+      "name": "teensy-compile",
+      "version": "5.4.1"
+    } ],
+    "discoveryDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-discovery"
+    } ],
+    "monitorDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-monitor"
+    } ]
+  },
+  {
+    "name": "Teensy",
+    "architecture": "avr",
+    "version": "1.57.2",
+    "category": "Contributed",
+    "help": { "online": "https://forum.pjrc.com/forum.php" },
+    "url": "https://www.pjrc.com/teensy/td_157/teensy-package.tar.bz2",
+    "archiveFileName": "teensy-package.tar.bz2",
+    "checksum": "SHA-256:1922c67a3d1261efb085eda1d99f5907936b89cc078f3567825cfc49661141c2",
+    "size": "33493974",
+    "boards": [
+      { "name": "Teensy 4.1" },
+      { "name": "Teensy MicroMod" },
+      { "name": "Teensy 4.0" },
+      { "name": "Teensy 3.6" },
+      { "name": "Teensy 3.5" },
+      { "name": "Teensy 3.2" },
+      { "name": "Teensy 3.0" },
+      { "name": "Teensy LC" },
+      { "name": "Teensy++ 2.0" },
+      { "name": "Teensy 2.0" }
+    ],
+    "toolsDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-tools",
+      "version": "1.57.2"
+    }, {
+      "packager": "teensy",
+      "name": "teensy-compile",
+      "version": "5.4.1"
+    } ],
+    "discoveryDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-discovery"
+    } ],
+    "monitorDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-monitor"
+    } ]
+  },
+  {
+    "name": "Teensy",
+    "architecture": "avr",
+    "version": "1.58.0",
+    "category": "Contributed",
+    "help": { "online": "https://forum.pjrc.com/forum.php" },
+    "url": "https://www.pjrc.com/teensy/td_158/teensy-package.tar.bz2",
+    "archiveFileName": "teensy-package.tar.bz2",
+    "checksum": "SHA-256:9f91f23d269507166052c42a06aca6cac013eba6769f216875ed3021602dd5c8",
+    "size": "35293537",
+    "boards": [
+      { "name": "Teensy 4.1" },
+      { "name": "Teensy MicroMod" },
+      { "name": "Teensy 4.0" },
+      { "name": "Teensy 3.6" },
+      { "name": "Teensy 3.5" },
+      { "name": "Teensy 3.2" },
+      { "name": "Teensy 3.0" },
+      { "name": "Teensy LC" },
+      { "name": "Teensy++ 2.0" },
+      { "name": "Teensy 2.0" }
+    ],
+    "toolsDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-tools",
+      "version": "1.58.0"
+    }, {
+      "packager": "teensy",
+      "name": "teensy-compile",
+      "version": "11.3.1"
+    } ],
+    "discoveryDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-discovery"
+    } ],
+    "monitorDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-monitor"
+    } ]
+  },
+  {
+    "name": "Teensy",
+    "architecture": "avr",
+    "version": "1.58.1",
     "category": "Contributed",
     "help": { "online": "info@artilrobotics.com" },
     "url": "https://github.com/ArtilRobotics/Artil_SAMD_Boards/raw/main/boards/artilsolver-1.zip",
     "archiveFileName": "artilsolver-1.zip",
     "checksum": "SHA-256:075804017958836c28dc7f31a4f6edb4f191fe68ad225a8257b4ac824179307f",
-    "size": "41535905",
+    "size": "35201368",
     "boards": [
       { "name": "Teensy 4.1" },
       { "name": "Teensy MicroMod" },
@@ -46,7 +165,88 @@
       "packager": "teensy",
       "name": "teensy-monitor"
     } ]
+  },
+  {
+    "name": "Teensy",
+    "architecture": "avr",
+    "version": "0.59.1",
+    "category": "Contributed",
+    "help": { "online": "https://forum.pjrc.com/forum.php" },
+    "url": "https://www.pjrc.com/teensy/td_159-beta1/teensy-package.tar.bz2",
+    "archiveFileName": "teensy-package.tar.bz2",
+    "checksum": "SHA-256:b51cbe6dd68dd6788213dc4a53ec09bfc22107661d8e93d1804f0c296d7073bb",
+    "size": "35295247",
+    "boards": [
+      { "name": "Teensy 4.1" },
+      { "name": "Teensy MicroMod" },
+      { "name": "Teensy 4.0" },
+      { "name": "Teensy 3.6" },
+      { "name": "Teensy 3.5" },
+      { "name": "Teensy 3.2" },
+      { "name": "Teensy 3.0" },
+      { "name": "Teensy LC" },
+      { "name": "Teensy++ 2.0" },
+      { "name": "Teensy 2.0" }
+    ],
+    "toolsDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-tools",
+      "version": "0.59.1"
+    }, {
+      "packager": "teensy",
+      "name": "teensy-compile",
+      "version": "11.3.1"
+    } ],
+    "discoveryDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-discovery"
+    } ],
+    "monitorDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-monitor"
+    } ]
+  },
+  {
+    "name": "Teensy",
+    "architecture": "avr",
+    "version": "0.59.2",
+    "category": "Contributed",
+    "help": { "online": "https://forum.pjrc.com/forum.php" },
+    "url": "https://www.pjrc.com/teensy/td_159-beta2/teensy-package.tar.bz2",
+    "archiveFileName": "teensy-package.tar.bz2",
+    "checksum": "SHA-256:21d020eddfcf566724e7c96b8ccef7d68e7a1f4ce8022fb129d619ac6a8ce436",
+    "size": "35295473",
+    "boards": [
+      { "name": "Teensy 4.1" },
+      { "name": "Teensy MicroMod" },
+      { "name": "Teensy 4.0" },
+      { "name": "Teensy 3.6" },
+      { "name": "Teensy 3.5" },
+      { "name": "Teensy 3.2" },
+      { "name": "Teensy 3.0" },
+      { "name": "Teensy LC" },
+      { "name": "Teensy++ 2.0" },
+      { "name": "Teensy 2.0" }
+    ],
+    "toolsDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-tools",
+      "version": "0.59.2"
+    }, {
+      "packager": "teensy",
+      "name": "teensy-compile",
+      "version": "11.3.1"
+    } ],
+    "discoveryDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-discovery"
+    } ],
+    "monitorDependencies": [ {
+      "packager": "teensy",
+      "name": "teensy-monitor"
+    } ]
   }
+
   ],
 
   "tools": [ {
