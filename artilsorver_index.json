@@ -134,7 +134,7 @@
     "url": "https://github.com/ArtilRobotics/Artil_SAMD_Boards/raw/main/boards/artilsolver-1.zip",
     "archiveFileName": "artilsolver-1.zip",
     "checksum": "SHA-256:075804017958836c28dc7f31a4f6edb4f191fe68ad225a8257b4ac824179307f",
-    "size": "35201368",
+    "size": "41535905",
     "boards": [
       { "name": "Teensy 4.1" },
       { "name": "Teensy MicroMod" },
