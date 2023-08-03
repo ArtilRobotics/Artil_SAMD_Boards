@@ -1,7 +1,7 @@
 {
     
 "packages": [ {
-  "name": "artilsolver",
+  "name": "teensy",
   "maintainer": "Artil Robotics",
   "websiteURL": "https://www.artilrobotics.com",
   "email": "info@artilrobotics.com",
